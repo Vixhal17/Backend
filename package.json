@@ -1,0 +1,16 @@
+{
+  "name": "backend_learn",
+  "version": "1.0.0",
+  "description": "Learning Backend through Project...",
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Vishal Chauhan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
