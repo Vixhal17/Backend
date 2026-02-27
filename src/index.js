@@ -1,6 +1,8 @@
 import dotenv from "dotenv";
 dotenv.config();
 
+
+import {app} from "./app.js";
 import connectDb from "./db/index.js";
 
 console.log("Starting server...");
@@ -13,6 +15,10 @@ connectDb()
     console.error("DB Error:", err);
   });
 
+
+  app.listen(process.env.PORT, () => {
+    console.log(`Server is running on port ${process.env.PORT} 🚀`);
+  });
  
 
 /*

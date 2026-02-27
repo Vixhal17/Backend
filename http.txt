@@ -1,0 +1,49 @@
+HTTPS --> Hyper text Transfer Protocol
+
+It let your browser communicate with websites.
+
+URL: Universal Resource Locator
+URI: Universal Resource Identifier
+URN: Universal Resource Name
+
+meta data --> key-value sent along with request nd response 
+
+caching , authentication , manage state
+(x-prefix - 2012(deprecated));
+
+Request header = from client
+Response Header = fron server
+Representation headers = encoding/compression
+payload Header = data
+
+ Most commin Header:
+ Accept --> application/json(most common)
+ User-Agent 
+ Authorization: Bearer Token 
+ Content_type
+ Cookiee
+ Cache_control
+
+ CORS:
+ Access-Control-Allow-Origin
+
+ SECURITY:
+ ...
+
+
+HTTP methods: basic set of operation that cna be used to interact with server
+
+GET:retrieve a Resource
+POST:interact with Resource
+OPTIONS:what operation available
+DELETE:remove a resource
+PATCH:change part of a resource
+PUT:replace a resource
+
+
+Status code
+1xx : Informational
+2xx:Success
+3xx:redirection
+4xx:client error
+5xx:server error
